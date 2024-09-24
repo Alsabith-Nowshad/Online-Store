@@ -1,7 +1,5 @@
 import React from 'react';
 import { FaRegHeart, FaSearch } from 'react-icons/fa';
-import { FiSearch } from 'react-icons/fi';
-import { GoSearch } from 'react-icons/go';
 import { ImCart } from 'react-icons/im';
 import { IoIosSearch } from 'react-icons/io';
 import { Link } from 'react-router-dom';

@@ -1,5 +1,10 @@
 import React from 'react';
 import HeroSlider from '../Components/HeroSlider';
+import Landingsmallcategory from '../Components/Landingsmallcategory';
+import Taglinesec from '../Components/Taglinesec';
+import NewLaunches from '../Components/NewLaunches';
+import Marquee from '../Components/Marquee';
+
 
 const Home = () => {
 
@@ -15,12 +20,38 @@ let images = [
     }
 ]
 
+let marquee = [
+  {
+    img: './public/images/marquee1.svg'
+  },
+  {
+    img: './public/images/marquee2.svg'
+  },
+  {
+    img: './public/images/marquee3.svg'
+  },
+  {
+    img: './public/images/marquee4.svg'
+  },
+  {
+    img: './public/images/marquee5.svg'
+  },
+  {
+    img: './public/images/marquee6.svg'
+  },
+]
+
 
 
 
   return (
     <div>
             <HeroSlider images={images}/>
+            <Landingsmallcategory/>
+            <Taglinesec/>
+            <NewLaunches/>
+            <Marquee images={marquee}/>
+            
     </div>
   );
 };
