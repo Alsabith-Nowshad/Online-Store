@@ -4,6 +4,7 @@ import Landingsmallcategory from '../Components/Landingsmallcategory';
 import Taglinesec from '../Components/Taglinesec';
 import NewLaunches from '../Components/NewLaunches';
 import Marquee from '../Components/Marquee';
+import BestSeller from '../Components/BestSeller';
 
 
 const Home = () => {
@@ -42,6 +43,28 @@ let marquee = [
 ]
 
 
+let Bestseller = [
+{
+  img:'./public/images/bestseller1.png'
+  ,Title:'Origin'
+},
+{
+  img:'./public/images/bestseller2.png'
+  ,Title:'Ensens'
+},
+{
+  img:'./public/images/bestseller3.png'
+  ,Title:'Mexico'
+},
+{
+  img:'./public/images/bestseller4.png'
+  ,Title:'Chanel'
+},
+
+
+]
+
+
 
 
   return (
@@ -50,8 +73,8 @@ let marquee = [
             <Landingsmallcategory/>
             <Taglinesec/>
             <NewLaunches/>
-            <Marquee images={marquee}/>
-            
+            <Marquee photo={marquee}/>
+            <BestSeller data={Bestseller}/>
     </div>
   );
 };
