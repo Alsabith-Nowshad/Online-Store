@@ -5,6 +5,9 @@ import Taglinesec from '../Components/Taglinesec';
 import NewLaunches from '../Components/NewLaunches';
 import Marquee from '../Components/Marquee';
 import BestSeller from '../Components/BestSeller';
+import TopPicks from '../Components/TopPicks';
+import JustTrending from '../Components/JustTrending';
+import ShopByCategory from '../Components/ShopByCategory';
 
 
 const Home = () => {
@@ -73,8 +76,11 @@ let Bestseller = [
             <Landingsmallcategory/>
             <Taglinesec/>
             <NewLaunches/>
-            <Marquee photo={marquee}/>
+            {/* <Marquee photo={marquee}/> */}
             <BestSeller data={Bestseller}/>
+            <TopPicks/>
+            <JustTrending/>
+            <ShopByCategory/>
     </div>
   );
 };
