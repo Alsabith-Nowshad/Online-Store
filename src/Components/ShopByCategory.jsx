@@ -2,19 +2,19 @@ import React from 'react'
 
 const ShopByCategory = () => {
   return (
-    <div className='w-full h-screen lg:px-20 mt-10 flex'>
+    <div className='w-[100%] h-auto px-2 lg:px-5 justify-center items-center mt-10   lg:flex lg:gap-2'>
 
-      <div className="leftSec w-[50%] h-[70vh] bg-yellow-400">
-        <div className="top bg-red-200 h-[35vh] w-full">
+      <div className="leftSec w-[100%] lg:w-[50%] h-[100vw] md:h-[100vh] mb-2 lg:mb-0  flex flex-col gap-2 ">
+        <div className="top  h-[50vh] w-full bg-cover bg-[url('./public/images/cate1.png')]">
         
         </div>
-        <div className="bottom h-[35vh] flex">
+        <div className="bottom h-[50vh] flex gap-2 ">
 
-        <div className="left w-[50%] h-full bg-blue-500">
+        <div className="left w-[50%] h-full  bg-cover bg-[url('./public/images/cate4.png')]">
 
         </div>
 
-        <div className="right w-[50%] bg-red-600">
+        <div className="right w-[50%]  bg-cover bg-[url('./public/images/cate5.png')]">
 
         </div>
 
@@ -23,14 +23,19 @@ const ShopByCategory = () => {
         </div>
       </div>
 
-    <div className="rightSec bg-zinc-500 w-[50%] h-[70vh]">
+    <div className="rightSec  w-full lg:w-[50%] h-[100vw] md:h-[100vh] flex gap-2">
 
 
-    <div className="leftSide">
-    
+    <div className="leftSide w-[50%] h-[100%] flex flex-col gap-2">
+    <div className="top w-[100%]  h-[50%] bg-cover bg-[url('./public/images/cate2.png')]">
+
+    </div>
+    <div className="bottom top w-[100%] h-[50%] bg-cover bg-[url('./public/images/cate6.png')]">
+
+    </div>
     </div>
 
-    <div className="rightSide">
+    <div className="rightSide w-[50%] h-full bg-cover bg-[url('./public/images/cate3.png')]">
 
     </div>
 

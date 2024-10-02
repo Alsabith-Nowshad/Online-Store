@@ -23,6 +23,9 @@ const JustTrending = () => {
 <Buttons/>
 </div>
     </div>
+    <div className='flex justify-center items-center mt-10'>
+  <h1 className='sm:text-[1.5rem] lg:text-[1.8rem] font-extrabold text-[#FF8686]'><span className='text-[#3C486B]'>Shop By</span> Categories</h1>
+  </div>
     </div>
   )
 }

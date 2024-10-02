@@ -8,6 +8,8 @@ import BestSeller from '../Components/BestSeller';
 import TopPicks from '../Components/TopPicks';
 import JustTrending from '../Components/JustTrending';
 import ShopByCategory from '../Components/ShopByCategory';
+import BestDeal from '../Components/BestDeal';
+import TestimonialMain from '../Components/TestimonialMain';
 
 
 const Home = () => {
@@ -81,6 +83,8 @@ let Bestseller = [
             <TopPicks/>
             <JustTrending/>
             <ShopByCategory/>
+          <BestDeal/>
+          <TestimonialMain/>
     </div>
   );
 };
