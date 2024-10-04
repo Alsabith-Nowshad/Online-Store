@@ -10,6 +10,7 @@ import JustTrending from '../Components/JustTrending';
 import ShopByCategory from '../Components/ShopByCategory';
 import BestDeal from '../Components/BestDeal';
 import TestimonialMain from '../Components/TestimonialMain';
+import Footer from '../Components/Footer';
 
 
 const Home = () => {
@@ -85,6 +86,7 @@ let Bestseller = [
             <ShopByCategory/>
           <BestDeal/>
           <TestimonialMain/>
+          <Footer/>
     </div>
   );
 };
