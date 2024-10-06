@@ -85,7 +85,7 @@ let Bestseller = [
             <JustTrending/>
             <ShopByCategory/>
           <BestDeal/>
-          <TestimonialMain/>
+          {/* <TestimonialMain/> */}
           <Footer/>
     </div>
   );

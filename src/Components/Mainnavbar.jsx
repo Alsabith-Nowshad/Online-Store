@@ -3,28 +3,19 @@ import { FaRegHeart, FaSearch } from 'react-icons/fa';
 import { ImCart } from 'react-icons/im';
 import { IoIosSearch } from 'react-icons/io';
 import { Link } from 'react-router-dom';
+import SearchBar from './SearchBar';
 
 const Mainnavbar = () => {
   return (
-    <div className="mainNavbar w-full h-[10vh] px-3  md:px-20 flex justify-between items-center">
+    <div className="mainNavbar w-full h-[10vh] px-3  md:px-20 flex justify-between items-center relative">
+      <SearchBar/>
       <div className="logo">
         <Link className="font-bold text-[25px] md:text-[35px]">SHOP.CO</Link>
       </div>
-      {/* <div className="search w-[30vw] hidden lg:flex">
-        <div className="flex items-center w-[30vw]  bg-white border rounded-full shadow-md">
-          <div className="pl-4">
-            <FaSearch className="text-gray-500" />
-          </div>
-          <input
-            type="text"
-            className="w-[30vw] p-2 pl-4 text-sm text-gray-700 bg-white rounded-full focus:outline-none"
-            placeholder="Search for products..."
-          />
-        </div>
-      </div> */}
       <div className="utilities m-2 relative flex justify-center items-center">
         <div className="cartdiv flex gap-5 justify-center items-center ">
           <IoIosSearch className=" text-black text-[19px] lg:text-[22px]" />
+          
           <Link className="text-[17px] lg:text-[20px]">
             <FaRegHeart />
           </Link>
